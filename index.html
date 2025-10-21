@@ -6,12 +6,14 @@
         <title>HW2: Sample HTML Page</title>
     </head>
     <body>
-        <h1>Quantum Entanglement of Coffee Molecules: A Novel Approach to Productivity Enhancement</h1>
-        <p>Published June 12, 2025</p>
-        <p> Dr. Wilhelmina Quark1,2, Prof. Magnus Neutrino1, Dr. Sarah Photon3</p>
-        <p>1Department of Applied Caffeination, Globocorp Research Institute</p>
-        <p>2Center for Temporal Mechanics, New New York</p>
-        <p> 3Quantum Beverage Laboratory, Globocorp Industries</p>
+        <hgroup>
+            <h1>Quantum Entanglement of Coffee Molecules: A Novel Approach to Productivity Enhancement</h1>
+            <p>Published June 12, 2025</p>
+            <p> Dr. Wilhelmina Quark, Prof. Magnus Neutrino1, Dr. Sarah Photon</p>
+            <p>Department of Applied Caffeination, Globocorp Research Institute</p>
+            <p>Center for Temporal Mechanics, New New York</p>
+            <p> Quantum Beverage Laboratory, Globocorp Industries</p>
+        </hgroup>
         <hr>
         <search-bar>
             <label for="search">Search within article:</label>
@@ -58,7 +60,7 @@
             <p>Coffee beans were subjected to controlled quantum entanglement using the Globocorp QED-3000. The process involved:</p>
             <ol>
                 <li>Pre-treatment with coherent photon bombardment (λ = 632.8 nm)</li>
-                <li>Grinding at precisely 77 K to maintain quantum states</li>
+                <li>Grinding at precisely <abbr>77 K</abbr> to maintain quantum states</li>
                 <li> Brewing under 1.21 gigapascals of pressure</li>
                 <li> Immediate consumption within the decoherence window (τ < 5 minutes)</li>
             </ol>
@@ -81,7 +83,8 @@
                 <p><strong>Photon source:</strong> Helium-Neon laser,  λ = 632.8 nm, power 5 mWK</p>
                 <p><strong>Example replicate command (experimental automation):</strong></p>
                 <code> ./qed_control --mode entangle --temp 77K --pressure 1.21GPa --duration 00:04:30 --output run_2025-06-12.json</code>
-                <pre> Use Ctrl + C to cancel in the terminal if you need to abort the run.</pre>
+                <pre> Use <kbd>Ctrl</kbd> + <kbd>C</kbd> to cancel in the terminal if you need to abort the run.</pre>
+                
                 <figure> 
                     <img src="starbucks.jpg" alt="Starbucks image" width="500">
                     <figcaption><strong>Figure 1:</strong> Schematic representation of the quantum coffee preparation apparatus. The entanglement chamber (center) maintains coherence through magnetic confinement.</figcaption>
@@ -94,22 +97,130 @@
             <p> Analysis revealed significant improvements across all measured parameters:</p>
             <table>
                 <caption>Table 1: Productivity improvements by group</caption>
+                <colgroup>
+                    <col class="metric">
+                    <col class="control">
+                    <col class="quantum">
+                    <col class="placebo">
+                    <col class="p-val">
+                </colgroup>
                 <thead>
                     <tr>
-                        <th>Metric</th>
-                        <th>Control</th>
-                        <th>Quantum</th>
-                        <th>Placebo</th>
-                        <th>p-value</th>
+                        <th scope ="col">Metric</th>
+                        <br>
+                        <th scope ="col">Control</th>
+                        <br>
+                        <th scope ="col">Quantum</th>
+                        <th scope ="col">Placebo</th>
+                        <th scope ="col">p-value</th>
                     </tr>
                 </thead>
                 <tbody>
                     <tr>
-                        <td></td>
+                        <th scope="row">Task Completion<br>Rate (%)</th>
+                        <br>
+                        <td>62.3 ± 5.1</td>
+                        <td>91.8 ± 3.2</td>
+                        <td>64.1 ± 4.8</td>
+                        <td>&lt;0.001</td>
+                        </tr>
+                        <tr>
+                        <th scope="row">Error Rate (%)</th>
+                        <br>
+                        <td>8.7 ± 1.2</td>
+                        <td>2.1 ± 0.4</td>
+                        <td>8.3 ± 1.1</td>
+                        <td>&lt;0.001</td>
+                        </tr>
+                        <tr>
+                        <th scope="row">Meeting Efficiency<br>(units)</th>
+                        <td>3.2 ± 0.8</td>
+                        <td>8.9 ± 0.6</td>
+                        <td>3.4 ± 0.7</td>
+                        <td>&lt;0.001</td>
                     </tr>
-                </tbody>
             </table>
+            <h4>3.2 Temporal Analysis</h4>
+            <p><dfn id="temporalAnaDef">Temporal Analysis</dfn> The quantum entanglement effect showed remarkable persistence throughout the workday. Peak productivity occurred at 10:47 AM, with sustained effects until 4:23 PM.</p>
+            <aside>
+                <img src="figure2.png" alt="Temporal productivity graph" width="500">
+                <p><strong>Figure 2:</strong> Temporal distribution of productivity enhancement. The shaded region indicates the quantum coherence window. NOTE: The svg does not have to match the sample provided above.</p>
+            </aside>
         </results-section>
+        <discussion-section>
+            <h3>4. Discussion</h3>
+            <p> Our findings support the hypothesis that quantum entanglement can be maintained in biological systems at room temperature, contrary to conventional wisdom. The mechanism appears to involve resonance between caffeine molecules and neural microtubules.</p>
+            <h4>Note on Safety</h4>
+            <p>No adverse effects were observed during the study period. However, three participants reported experiencing "temporal displacement sensations" which resolved spontaneously.</p>
+
+        </discussion-section>
+        <conclusion-section>
+            <h3>5. Conclusion</h3>
+            <p>This study demonstrates that quantum-entangled coffee represents a viable approach to enhancing workplace productivity. Key findings include:</p>
+            <ul>
+                <li>Quantum coherence can be maintained in coffee for up to 5 minutes post-brewing</li>
+                <li>Entangled caffeine molecules produce measurable improvements in cognitive function</li>
+                <li> The Afternoon Paradox can be overcome through quantum mechanical principles</li>
+            </ul>
+            <p>Future work will explore the possibility of quantum tea and investigate whether decaf coffee exists in a state of quantum superposition until observed.</p>
+        </conclusion-section>
+        <references-section>
+            <h3>References</h3>
+            <ol>
+                <li>Smith, J. "A Brief History of Caffeine Addiction." <cite>Journal of Procrastination Studies</cite>, vol. 42, 2020, pp. 123-145.</li>
+                <li>Johnson, K., et al. "Quantum Superposition in Beverage Sciences." <cite>Physical Review Coffee</cite>, vol. 13, 2024, pp.456-478</li>
+                <li> Chen, L. "Temporal Mechanics of Office Productivity."<cite>Annals of Corporate Physics</cite>, vol. 7, 2023, pp. 89-101</li>
+            </ol>
+            <form>
+                <fieldset>
+                <legend>Quick Feedback</legend>
+                    <label for="coffee-select">Favorite Coffee:</label>
+                    <select id="coffee-select">
+                    <optgroup label="Popular Coffee Drinks">
+                        <option>Americano</option>
+                        <option>Pumpkin Spice Latte</option>
+                        <option>Espresso</option>
+                        <option>Caramel Macchiato</option>
+                        <option>Cold Brew</option>
+                    </optgroup>
+                    <optgroup label="Unique Coffee Blends">
+                        <option>Matcha Latte</option>
+                        <option>Salted Caramel</option>
+                        <option>Mocha</option>
+                    </optgroup>
+                    </select>
+                    <br>
+                    <br>
+                    <label for="ice-cream-choice">Choose a favorite coffee flavor from the popular choices:</label>
+                    <input list="popular-flavors" id="popular-choice" name="popular-choice" />
+
+                    <datalist id="popular-flavors">
+                        <option>Americano</option>
+                        <option>Pumpkin Spice Latte</option>
+                        <option>Espresso</option>
+                        <option>Caramel Macchiato</option>
+                        <option>Cold Brew</option>
+                    </datalist>
+                    <br>
+                    <br>
+                    <button type="submit">Submit</button>
+                </fieldset>
+            </form>
+            <hr>
+
+            <address>
+                <p><i>Correspondence should be directed to:</i></p>
+                <p><i>Dr. Wilhelmina Quark</i><br>
+                    <em>Department of Applied Caffeination, Globocorp Research Institute</em><br>
+                    42 Quantum Way, New New York, NY 10001<br>
+                    <a href="mailto:wquark@globocorp.com"><em>wquark@globocorp.com</em></a>
+                </p>
+            </address>
+
+        </references-section>
+        <footer>
+            <p><small>&copy;Globocorp Research Institute. This research was funded by Grant #QC-2025-42 from the Department of Applied Caffeination</small></p>
+        </footer>
 
     </body>
 </html>
